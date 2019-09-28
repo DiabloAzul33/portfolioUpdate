@@ -1,0 +1,163 @@
+/*-----------------------
+    blog area
+------------------------*/
+
+.blog-area {
+    padding-top: 103px;
+    padding-bottom: 50px;
+    .section-title{
+        margin-bottom: 62px;
+    }
+    .single-blog-post {
+        margin-bottom: 122px;
+        &:hover {
+            .thumb{
+                .thumb-inner {
+                    .hover {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .thumb {
+            margin-left: 70px;
+            cursor: pointer;
+            .thumb-inner{
+                position: relative;
+                display: inline-block;
+                z-index: 1;
+                .hover {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 0;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    visibility: hidden;
+                    opacity: 0;
+                    cursor: pointer;
+                    @include transition($transition);
+                    &:after {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0,0,0,0.50);
+                        content: '';
+                        z-index: -1;
+                    }
+                    &:before{
+                        position: absolute;
+                        left: 30px;
+                        top: 30px;
+                        width: 88%;
+                        height: 85%;
+                        content: '';
+                        z-index: 1;
+                        border: 2px solid $white;
+                        box-sizing: border-box;
+                        display: block;
+                    }
+                    .title{
+                        font-size: 25px;
+                        font-weight: 700;
+                        color: $white;
+                        text-transform: uppercase;
+                        margin-bottom: 15px;
+                        letter-spacing: 1px;
+                    }
+                    .separator{
+                        display: inline-block;
+                        width: 50px;
+                        height: 1px;
+                        background-color: $white;
+                    }
+                    .subtitle{
+                        padding-top: 15px;
+                        font-size: 18px;
+                        color: $white;
+                        display: block;
+                    }
+                }
+            }
+            
+        }
+        .before-text {
+            border: 5px solid $base-color;
+            position: absolute;
+            left: 15px;
+            top: 70px;
+            width: 60%;
+            height: 375px;
+            z-index: 0;
+            border-right: none;
+            border-top: none;
+            clear: both;
+            margin-bottom: 50px;
+            &:before{
+                position: absolute;
+                content: '';
+                top: 0;
+                width: 200px;
+                height: 5px;
+                background-color: $base-color;
+            }
+            &:after {
+                position: absolute;
+                content: '';
+                bottom: 0;
+                right: 0;
+                width: 5px;
+                height: 70px;
+                background-color: $base-color;
+            }
+            .hover-inner {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                .top-text {
+                    .title {
+                            writing-mode: tb-rl;
+                            @include transform(rotate(180deg));
+                            margin-left: 15px;
+                            position: absolute;
+                            bottom: 60px;
+                            left: 0;
+                            font-size: 20px;
+                            font-weight: 700;
+                    }
+                }
+                .bottom-text {
+                    .lern-btn {
+                        position: absolute;
+                        bottom: 15px;
+                        right: 70px;
+                        font-size: 16px;
+                        z-index: 9;
+                        color: #1e1e1e;
+                        @include transition($transition);
+                        &:hover{
+                            color: $base-color;
+                        }
+                        i {
+                            font-size: 20px;
+                            line-height: 0px;
+                            padding-top: 5px;
+                            position: absolute;
+                            right: -20px;
+                            top: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

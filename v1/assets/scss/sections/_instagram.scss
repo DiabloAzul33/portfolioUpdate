@@ -1,0 +1,25 @@
+/*-----------------------
+ instagram feed
+-----------------------*/
+.instagram-feed-area{
+    .left-content-area{
+        background-color: $base-color;
+        text-align: right;
+        padding: 90px 0 79px 0;
+        padding-right: 70px;
+        .title{
+            color: $white;
+            font-size: 50px;
+            line-height:60px;
+            span{
+                display: block;
+            }
+        }
+    }
+    .right-content-area{
+        margin-left: -5px;
+    }
+}
+#intagram-carousel-wrapper .owl-stage {
+    left: -50px;
+}

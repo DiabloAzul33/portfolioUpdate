@@ -1,0 +1,43 @@
+/*----------------------
+    Servcice 
+----------------------*/
+.service-area{
+    position: relative;
+    padding: 95px 0 55px 0;
+    border-bottom: 1px solid $base-color;
+    .service-left-vector{
+        position: absolute;
+        left: 0;
+        top: 40px;
+    }
+    .service-right-vector {
+        position: absolute;
+        right: 0;
+        top: 40px;
+    }
+    .single-service-box{
+        margin-bottom: 40px;
+        position: relative;
+        .icon{
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 25px;
+            color: $base-color;
+        }
+        .content {
+            padding-left: 40px;
+            padding-right: 20px;
+            .title{
+                font-size: 25px;
+                color: $base-color;
+                font-weight: 700;
+                margin-bottom: 25px;
+            }
+            p{
+                color: #252525;
+                font-size: 16px;
+            }
+        }
+    }
+}

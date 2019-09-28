@@ -1,0 +1,396 @@
+/* large layout: 1680px */
+@media only screen and (min-width: 1600px) and (max-width: 1680px) {
+    .about-me-area .left-image-warpper{
+        left: -5%;
+    }
+    .instagram-feed-area .left-content-area {
+        padding: 135px 0 125px 0;
+        padding-right: 70px;
+    }
+}
+@media only screen and (min-width: 1439px) and (max-width: 1599px) {
+    .about-me-area .left-image-warpper {
+        left: -12%;
+    }
+    .instagram-feed-area .left-content-area {
+        padding: 110px 0 103px 0;
+        padding-right: 70px;
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1440px) {
+    .about-me-area .left-image-warpper {
+        left: -12%;
+    }
+    .instagram-feed-area .left-content-area {
+        padding: 100px 0 93px 0;
+        padding-right: 70px;
+    }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1399px) {
+    .about-me-area .left-image-warpper {
+        left: -12%;
+    }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1366px) {
+    .about-me-area .left-image-warpper {
+        left: -15%;
+    }
+    .instagram-feed-area .left-content-area {
+        padding: 95px 0 82px 0;
+        padding-right: 70px;
+    }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1299px) {
+    .about-me-area .left-image-warpper {
+        left: -20%;
+    }
+    .instagram-feed-area .left-content-area {
+        padding: 80px 0 73px 0;
+        padding-right: 70px;
+    }
+}
+/* Medium Layout: 1200px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 45px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 20px 10px;
+        position: relative;
+    }
+    .about-me-area .left-image-warpper {
+        left: -25%;
+    }
+    .instagram-feed-area .left-content-area {
+        padding: 75px 0 58px 0;
+        padding-right: 70px;
+    }
+    .instagram-feed-area .left-content-area {
+        padding: 50px 0 35px 0;
+        padding-right: 70px;
+    }
+    .contact-area .right-content-wrapper .social-content-area ul li {
+        margin: 0 5px;
+    }
+    .contact-area .right-content-wrapper .social-content-area ul {
+        margin-left: 0; 
+    }  
+    .about-me-area .right-content-area {
+        margin-left: 100px;
+    }
+    .blog-area .single-blog-post .before-text{
+        top: 0;
+    }
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 85px;
+        background: #fff;
+        z-index: 9;
+        right: 14%;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .dropdown-item {
+        background: #fff;
+        color: #fff;
+    }
+    .navbar-area {
+        padding: 20px;
+    }
+    .about-me-area .right-content-area {
+        margin-left: 100px;
+    }
+    .instagram-feed-area .left-content-area {
+        padding: 50px 0 35px 0;
+        padding-right: 70px;
+    }
+    .header-area .header-area-inner .social-share-icons {
+        text-align: center;
+    }
+    .header-area .header-area-inner .right-content-area {
+        padding-top: 50px;
+    }
+    .portfolio-area .portfolio-menu-wrapper ul li {
+        display: inline-block;
+        margin: 0 10px;
+        margin-bottom: 30px;
+    }
+    .about-me-area .left-image-warpper {
+        display: none;
+    }
+    .instagram-feed-area .left-content-area .title {
+        text-align: center;
+        color: #0785DD;
+    }
+
+    .instagram-feed-area .left-content-area .title span {
+        display: inline-block;
+    }
+
+    .instagram-feed-area .left-content-area {
+        background-color: transparent;
+        border-top: 1px solid #0785DD;
+        padding-bottom: 100px;
+        padding-top: 90px;
+    }
+    #intagram-carousel-wrapper .owl-stage{
+        left: 0px;
+    }
+    .contact-area .right-content-wrapper {
+        margin-top: 0;
+    }
+    .contact-area .right-content-wrapper .social-content-area {
+        text-align: center;
+    }
+
+    .contact-area .right-content-wrapper .social-content-area ul {
+        margin-left: 0;
+    }
+    .header-area .header-area-inner .social-share-icons {
+        margin-top: 0;
+    }
+
+    .header-area .header-area-inner .right-content-area {
+        padding-top: 100px;
+    }
+
+    .header-area .header-area-inner .social-share-icons ul li.first-child {
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .header-area .header-area-inner {
+        padding-bottom: 150px;
+    }
+    .header-area .header-area-inner .social-share-icons ul li:first-child {
+        margin-left: 0;
+    }
+}
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+    
+    .navbar-light .navbar-toggler {
+        background-color: #fff;
+    }
+    .navbar-area {
+        padding: 20px;
+    }
+     .navbar-area .navbar-collapse {
+         position: absolute;
+         top: 85px;
+         background: #fff;
+         z-index: 9;
+         right: 14%;
+         width: 250px;
+         padding-left: 20px;
+     }
+
+     .navbar-area.navbar.navbar-light .navbar-toggler {
+         background: #fff;
+     }
+
+     .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+         padding-left: 0.4rem !important;
+     }
+
+     .navbar-area .navbar-collapse .navbar-nav .nav-item {
+         padding: 0;
+     }
+
+     .dropdown-item {
+         background: #fff;
+         color: #fff;
+     }
+     .header-area .header-area-inner .social-share-icons {
+         text-align: center;
+     }
+
+     .header-area .header-area-inner .right-content-area {
+         padding-top: 50px;
+     }
+
+     .portfolio-area .portfolio-menu-wrapper ul li {
+         display: inline-block;
+         margin: 0 10px;
+     }
+
+     .about-me-area .left-image-warpper {
+         display: none;
+     }
+
+     .instagram-feed-area .left-content-area .title {
+         text-align: center;
+         color: #0785DD;
+     }
+
+     .instagram-feed-area .left-content-area .title span {
+         display: inline-block;
+     }
+
+     .instagram-feed-area .left-content-area {
+         background-color: transparent;
+         border-top: 1px solid #0785DD;
+         padding-bottom: 100px;
+         padding-top: 90px;
+     }
+
+     #intagram-carousel-wrapper .owl-stage {
+         left: 0px;
+     }
+
+     .contact-area .right-content-wrapper {
+         margin-top: 0;
+     }
+
+     .contact-area .right-content-wrapper .social-content-area {
+         text-align: center;
+     }
+
+     .contact-area .right-content-wrapper .social-content-area ul {
+         margin-left: 0;
+     }
+     .header-area .header-area-inner .left-content-area .thumb:before {
+         top: -20px;
+     }
+     .portfolio-menu-wrapper {
+         margin-bottom: 30px;
+     }
+
+     .portfolio-menu-wrapper ul {
+         text-align: center;
+     }
+     .portfolio-area .btn-wrapper {
+         margin-left: 0;
+         text-align: center;
+     }
+     .blog-area .single-blog-post .before-text {
+         top: 30px;
+         height: 290px;
+     }
+     .instagram-feed-area .left-content-area{
+         padding-right: 0;
+     }
+     .contact-area .right-content-wrapper .social-content-area ul li {
+         display: inline-block;
+         margin: 0px 4px;
+     }
+     .header-area .header-area-inner .social-share-icons {
+         margin-top: 0;
+     }
+
+     .header-area .header-area-inner .right-content-area {
+         padding-top: 100px;
+     }
+
+     .header-area .header-area-inner .social-share-icons ul li.first-child {
+         padding-left: 0;
+         margin: 0;
+     }
+
+     .header-area .header-area-inner {
+         padding-bottom: 150px;
+         
+     }
+
+     .header-area .header-area-inner .social-share-icons ul li:first-child {
+         margin-left: 0;
+     }
+     .blog-area .single-blog-post .before-text {
+         height: 390px;
+     }
+     .blog-area .single-blog-post .before-text {
+         width: 85%;
+     }
+}
+
+/* medium tablet layout 599px */
+
+@media only screen and (max-width: 599px) {
+   .blog-area .single-blog-post .before-text .hover-inner,
+   .blog-area .single-blog-post .before-text {
+       display: none;
+   }
+   .blog-area .single-blog-post .thumb{
+       margin-left: 0;
+   }
+   .blog-area .single-blog-post {
+       margin-bottom: 30px;
+   }
+   .blog-area {
+       padding-bottom: 100px;
+   }
+   .portfolio-area .portfolio-wrapper .single-portfolio-item .thumb img {
+       width: 100%;
+   }
+   .header-area .header-area-inner .left-content-area .thumb:before{
+       left: -15px;
+   }
+}
+
+/* mobile tablet layout 414px */
+
+@media only screen and (max-width: 414px) {
+    .contact-area .right-content-wrapper .social-content-area ul li a {
+        width: 60px;
+        height: 60px;
+        line-height: 55px;
+    }
+    .instagram-feed-area .left-content-area {
+        margin-top: 50px;
+    }
+    .header-area .header-area-inner .left-content-area .thumb:before{
+        height: 113%;
+    }
+    .header-area .header-area-inner .right-content-area {
+        padding-top: 60px;
+    }
+    .header-area .header-area-inner {
+        padding-bottom: 110px;
+        padding-top: 110px;
+    }
+    .blog-area {
+        padding-bottom: 40px;
+    }
+}
+
+/* mobile tablet layout 375px */
+
+@media only screen and (max-width: 384px) {
+    .header-area .header-area-inner .left-content-area .thumb:before {
+        height: 115%;
+    }
+}
+
+/* mobile tablet layout 360px */
+
+@media only screen and (max-width: 360px) {
+    
+}
+
+/* mobile tablet layout 320px */
+
+@media only screen and (max-width: 320px) {
+    .blog-area .single-blog-post .before-text {
+        top: 0px;
+        height: 250px;
+    }
+}

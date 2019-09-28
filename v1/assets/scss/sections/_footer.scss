@@ -1,0 +1,59 @@
+/*--------------------
+    footer area
+----------------------*/
+
+.footer-area{
+    .copyright-area{
+        text-align: center;
+        padding: 60px 0;
+        background-color: #000; 
+        font-size: 16px;
+        color: $white;
+        a{
+            color: $base-color;
+            font-weight: 700;
+        }
+    }
+    .map-wrapper{
+        #map{
+            height: 385px;
+        }
+    }
+    .footer-widget-area-wrapper{
+        background-color: #5f5f5f;
+        text-align: right;
+        .single-footer-widget {
+            padding: 95px 0 0 0;
+            display: inline-block;
+            min-width: 270px;
+            text-align: left;
+            .widget-title {
+                .title {
+                    font-size: 25px;
+                    font-weight: 700;
+                    color: $white;
+                }
+                margin-bottom: 42px;
+            }
+            .widget-body {
+                ul {
+                    li {
+                        display: block;
+                        font-weight: 16px;
+                        color: $white;
+                        margin: 12px 0;
+                        a {
+                            font-weight: 16px;
+                            color: $white;
+                            @include transition($transition);
+                            &:hover {
+                                color: $base-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

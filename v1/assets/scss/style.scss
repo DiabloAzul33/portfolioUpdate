@@ -1,0 +1,13 @@
+//=Main scss
+@import "main/_variables";
+@import "main/_mixins";
+@import "main/_global";
+@import "main/_normalize";
+//=Section scss
+@import "sections/_navbar";
+@import "sections/_header";
+@import "sections/_portfolio";
+@import "sections/_about";
+@import "sections/_blog";
+@import "sections/_instagram";
+@import "sections/_contact";

@@ -1,0 +1,46 @@
+/*--------------------
+    Work Area
+---------------------*/
+.work-area{
+   
+    .work-carousel-wrapper{
+        .work-carousel-activate{
+            .single-work-item{
+                display: inline-block;
+                position: relative;
+                &:hover{
+                    .hover{
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+                .hover{
+                    position: absolute;
+                    width: 100% - 8;
+                    height: 100% - 6;
+                    background-color: rgba(0,0,0,0.50);
+                    content: '';
+                    top: 20px;
+                    left: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    visibility: hidden;
+                    opacity: 0;
+                    @include transition($transition);
+                    .title{
+                        font-size: 25px;
+                        font-weight: 700;
+                        color: $white;
+                        margin-bottom: 15px;
+                    }
+                    .subtitle{
+                        font-size: 16px;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}

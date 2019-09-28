@@ -1,0 +1,61 @@
+/*------------------------
+	Css Indexing
+--------------------------
+** @typography
+--------------------------
+** Global css
+--------------------------
+** Breadcumb Area
+--------------------------
+** Preloader
+--------------------------
+** Normalize
+--------------------------
+** Navbar Area
+--------------------------
+** Header Area
+--------------------------
+** Portfolio area
+--------------------------
+** about area
+--------------------------
+** blog area
+--------------------------
+** instagram feed
+--------------------------
+** Contact Area
+--------------------------
+
+*/
+
+//== Template Main Color
+$base-color: #0785dd;
+$bg-color:#f7f7f7;
+$white: #fff;
+//== heading color
+$heading-color: #0785dd;
+$descr-color: #2e2e2e;
+
+/*-----------------
+    @Typography
+-----------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+$body-font:'Raleway',
+sans-serif;
+//== font sizes
+$base-font-size: 14px !default;
+$font-size-h1: 50px !default;
+$font-size-h2: 38px !default;
+$font-size-h3: 26px !default;
+$font-size-h4: 22px !default;
+//** Unit-less `line-height` for use in components like buttons.
+$line-height: 1.6 !default; // 24/15
+// border-radius
+$border-radius-5: 5px !default;
+$border-radius-25: 25px !default;
+$border-radius-3: 3px !default;
+$border-radius-circle: 50% !default;
+//  transition
+$transition: all .3s ease-in;
+$transition-long: all .5s ease-in;

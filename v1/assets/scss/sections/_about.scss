@@ -1,0 +1,42 @@
+/**----------------------
+about area
+------------------------*/
+
+.about-me-area {
+    position: relative;
+    .section-title{
+        margin-bottom: 60px;
+    }
+    .left-image-warpper {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-top: 325px;
+        .separator {
+            display: inline-block;
+            background-color: $base-color;
+            height: 1px;
+            width: 200px;
+            float: right;
+            margin-bottom: 30px;
+        }
+    }
+    .right-content-area {
+        .title {
+            font-size: 25px;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: $base-color;
+            margin-bottom: 25px;
+            display: inline-block;
+        }
+        p {
+            max-width: 750px;
+        }
+        .btn-wrapper {
+            margin-top: 45px;
+            .underscode-btn {}
+        }
+    }
+}

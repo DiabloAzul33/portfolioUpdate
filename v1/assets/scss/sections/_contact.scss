@@ -1,0 +1,63 @@
+/*----------------------
+    Contact Area
+-----------------------*/
+.contact-area{
+    padding-top: 100px;
+    .section-title{
+        margin-bottom: 62px;
+    }
+    .map-content-wrapper{
+        #map{
+            height: 654px;
+        }
+    }
+    .right-content-wrapper{
+        margin-top: 200px;
+        .social-content-area{
+            background-color: $base-color;
+            padding: 85px 0;
+            position: relative;
+            &:after{
+                position: absolute;
+                left: -30%;
+                top: 0;
+                width: 30%;
+                height: 100%;
+                content: '';
+                background-color: $base-color;
+            }
+            ul{
+                margin-left: 10%;
+                li{
+                    display: inline-block;
+                    margin: 0 20px;
+                    a{
+                        display: inline-block;
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 50%;
+                        line-height: 80px;
+                        text-align: center;
+                        color: $white;
+                        border: 5px solid $white;
+                    }
+                }
+            }
+        }
+        .copyright-area{
+            .copyright-inner{
+                text-align: center;
+                background-color: #000000;
+                padding: 90px 0;
+                .copyright-text{
+                    font-size: 16px;
+                    color: $white;
+                    a{
+                        color: $base-color;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
